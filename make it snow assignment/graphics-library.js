@@ -27,7 +27,6 @@ function font(fontSetting){
     ctx.font = fontSetting;
 }
 
-
 //Draw a stroke or fill a rectangle with a top left corner of (x, y) 
 //a width of w or and a height of h
 function rect(x, y, w, h, mode) {
@@ -81,13 +80,4 @@ function text(message, x, y, mode) {
         ctx.strokeText(message, x, y);
     }
 }
-
-// function ellipse(x, y, xRadius, yRadius, rotation, mode){
-    // ctx.beginPath();
-    // ctx.ellipse(x, y, xRadius, yRadius, rotation, 0, 2 * Math.PI);
-// }if (mode === "fill"){
-    // ctx.fill();
-// }else if (mode === "stroke") {
-    // ctx.stroke();
-// }
 
